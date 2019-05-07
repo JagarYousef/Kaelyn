@@ -5,6 +5,9 @@ A simple-to-use app to monitor enteral feed trackers
 - One page controls
 - Full functions: Add/Calculate/Edit/Delete/Comment 
 - Simple statistics
+ 
+### APK
+https://github.com/JagarYousef/Kaelyn/raw/master/app/release/app-release.apk
 
 ### Screenshots
 ![Screenshot_20190507-114353_Kaelyn](https://user-images.githubusercontent.com/41321155/57288122-98703400-70c1-11e9-8f53-f0c0d93a0daf.jpg)
