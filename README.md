@@ -1,5 +1,5 @@
 # Kaelyn
-A simple-to-use app to monitor enteral feed (tube feeding tracking)
+An simple-to-use android app to monitor enteral feed (tube feeding tracking)
 
 ### Features
 - One page controls
