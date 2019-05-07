@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtAmount"
+        android:padding="4dp"
+        android:maxLines="1"
+        android:hint="Amount in mls"
+        android:textColorHint="#D5CECE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edt_bg"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtRate"
+        android:padding="4dp"
+        android:maxLines="1"
+        android:hint="Rate in mls/hour"
+        android:textColorHint="#D5CECE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edt_bg"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtTime"
+        android:padding="4dp"
+        android:maxLines="1"
+        android:hint="Time in hours"
+        android:textColorHint="#D5CECE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edt_bg"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@drawable/btn_text_color"
+        android:text="Calculate the missed value"
+        android:background="@drawable/btn_bg"/>
+
+    <EditText
+        android:id="@+id/edtNotes"
+        android:padding="8dp"
+        android:textSize="15sp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:hint="Notes (if any)"
+        android:background="@drawable/edt_notes_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imgSmile"
+            android:src="@drawable/ic_sentiment_satisfied_green_24dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:src="@drawable/ic_sentiment_neutral_blue_24dp"
+            android:id="@+id/imgNormal"
+            android:layout_width="52dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/ic_sentiment_dissatisfied_black_24dp"
+            android:id="@+id/imgSad"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:textColor="@drawable/btn_text_color"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:background="@drawable/btn_bg"/>
+        <ImageButton
+            android:background="@drawable/btn_cancel_bg"
+            android:id="@+id/imgBtnCancel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/btn_cancel_src"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
